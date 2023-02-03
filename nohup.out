@@ -1,0 +1,3 @@
+If you experience strange GUI bugs or crashes, try setting GTK_THEME=Adwaita.
+
+(SmartGit:91377): Gtk-CRITICAL **: 21:11:05.959: gtk_box_gadget_distribute: assertion 'size >= 0' failed in GtkScrollbar
