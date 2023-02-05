@@ -10,7 +10,7 @@ adjustable bed bases.
 
 If your remote control looks like this:
 
-[todo picture]
+<img width="250px" src="{{ "/assets/images/remote.png" | relative_url }}">
 
 ... then this device will work for you.
 
