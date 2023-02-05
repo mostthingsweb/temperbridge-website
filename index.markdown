@@ -5,5 +5,12 @@
 layout: default
 ---
 
+TemperBridge is an ESPHome-based device for controlling certain models of Tempur-Pedic®
+adjustable bed bases.
 
-TEST content
+If your remote control looks like this:
+
+[todo picture]
+
+... then this device will work for you.
+
