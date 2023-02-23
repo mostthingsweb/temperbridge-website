@@ -22,7 +22,7 @@ title: TemperBridge
 description: >- # this means to ignore newlines until "baseurl:"
   TemperBridge is an ESPHome-based device for controlling certain models of Tempur-Pedic®
   adjustable bed bases.
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/docs" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
