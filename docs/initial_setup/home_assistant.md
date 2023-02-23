@@ -1,5 +1,5 @@
 ---
 layout: default
-title: Requirements
+title: Home Assistant
 nav_order: 2
 ---
