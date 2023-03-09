@@ -5,13 +5,12 @@ nav_order: 1
 parent: Initial setup
 ---
 
-## Minimum version requirements
+## Version requirement
 
-TemperBridge is tested on Home Assistant **2023.1** and later. Please update HA to at least 2023.1 before purchasing and setup.
+TemperBridge is supported on Home Assistant version **2023.2** and later. Please update HA to at least 2023.2 before purchasing and setup.
 
-## ESPHome integration
+It *may* work on earlier versions but I cannot guarantee it. Also, regardless of what version of HA you are using, 
+the ESPHome integration version needs to be at least [2021.9.0](https://esphome.io/changelog/2021.9.0.html) since that's 
+when support for encryption keys was added.
 
-If you are running HA 2023.2 or later, ESPHome is already integrated with Home Assistant :). 
-
-Otherwise, please install the ESPHome integration: [https://www.home-assistant.io/integrations/esphome/](https://www.home-assistant.io/integrations/esphome/)
-
+## 
