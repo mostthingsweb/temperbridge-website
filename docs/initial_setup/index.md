@@ -55,9 +55,3 @@ ping temperbridge-3f65e1.local
 
 If this fails, check to make sure your system has mDNS support enabled. On Windows, the easiest fix is to 
 install [Bonjour Print Services](https://support.apple.com/kb/DL999?locale=en_US) and then reboot your machine. On Linux, try following [these instructions](https://developer.ridgerun.com/wiki/index.php/How_to_use_mDNS_to_access_a_device_without_knowing_the_IP_address).
-
-## Usage with Home Assistant 
-You will almost certainly want to use TemperBridge as part of a [Home Assistant](https://www.home-assistant.io/) 
-installation. Therefore, you will need to have installed and configured Home Assistant. For instructions, see: https://www.home-assistant.io/installation/.
-
-Next, you will need to 
