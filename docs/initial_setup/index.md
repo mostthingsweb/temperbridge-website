@@ -12,6 +12,7 @@ You can use TemperBridge with or without Home Assistant. Regardless, you will ne
 - A supported model of adjustable base - I cannot stress this enough, [please make sure your remote control matches the one depicted here]({{ "/" | relative_url }}).
 - WiFi network
 - PC, phone, or tablet for initial setup
+- Home Assistant version **2023.2** or later (if using with Home Assistant, of course) 
 - USB A power supply - measured power consumption is around 2-3 W. An old phone charger or spare USB port on a PC should work just fine.
 - The info page that came with your TemperBridge which gives the MAC address and device passwords.
 
