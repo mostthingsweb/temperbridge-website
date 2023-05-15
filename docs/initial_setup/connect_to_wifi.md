@@ -5,8 +5,25 @@ nav_order: 2
 parent: Initial setup
 ---
 
+There are three different ways you can pair your TemperBridge to your WiFi network. Obviously, you only need to choose one.
 
-## Connect to your WiFi network
+## Method 1: Pair over Bluetooth
+
+If you have access to a device with Bluetooth then this method is by far the easiest.
+
+Power up the TemperBridge. On a device with Bluetooth, go to this URL: [https://www.improv-wifi.com/](https://www.improv-wifi.com/).
+
+Click the "Connect device to Wi-Fi" button. Select your device in the popup and click "Pair". It will be called something like 'temperbridge-3f65e1'.
+
+When you are prompted to click the "Authorize" button, click the button on the TemperBridge labeled "FACTORY". (It's the button closest to the big red and green LEDs)
+
+Enter your WiFi network name and password, then click "SAVE". Click "NEXT". Follow the instructions on subsequent pages to setup the ESPHome integration in your Home Assistant assistant.
+
+## Method 2: Pair over USB
+
+Use this method if you have a PC or laptop with a USB port. 
+
+## Method 3: Pair over WiFi using captive portal
 
 Power up the TemperBridge. After a few moments, the red LED will blink. Using your PC or phone, connect to the
 **TemperBridge Wifi Config** WiFi network. This is a special WiFi network (called a [captive portal](https://esphome.io/components/captive_portal.html)) that the TemperBridge creates
