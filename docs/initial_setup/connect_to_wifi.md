@@ -21,6 +21,8 @@ When you are prompted to click the "**Authorize**" button, click the button on t
 
 Enter your WiFi network name and password, then click "**SAVE**". Click "**NEXT**". Follow the instructions on subsequent pages to setup the ESPHome integration in your Home Assistant instance.
 
+Proceed to [Home Assistant basic setup]({{ "/docs/home_assistant/basic_setup" | relative_url }}).
+
 ## Method 2: Pair over USB
 
 Use this method if you have a PC or laptop with a USB port. 
