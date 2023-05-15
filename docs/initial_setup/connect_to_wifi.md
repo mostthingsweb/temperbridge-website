@@ -13,7 +13,7 @@ If you have access to a device with Bluetooth then this method is by far the eas
 
 Power up the TemperBridge. On a device with Bluetooth, go to this URL: [https://www.improv-wifi.com/](https://www.improv-wifi.com/). Click the "**Connect device to Wi-Fi**" button. 
 
-<img width="500px" src="{{ "/assets/images/improv-bluetooth.png" | relative_url }}">
+<img width="300px" src="{{ "/assets/images/improv-bluetooth.png" | relative_url }}">
 
 Select your device in the popup and click "**Pair**". It will be called something like 'temperbridge-3f65e1'.
 
@@ -27,7 +27,7 @@ Use this method if you have a PC or laptop with a USB port.
 
 Plug the TemperBridge into your PC. Go to this URL: [https://web.esphome.io/](https://web.esphome.io/). Click the "CONNECT" button.
 
-<img width="500px" src="{{ "/assets/images/improv-serial.png" | relative_url }}">
+<img width="300px" src="{{ "/assets/images/improv-serial.PNG" | relative_url }}">
 
 In the popup, select the "**CP2102N USB to UART Bridge Controller**" device and click "**Connect**".
 
