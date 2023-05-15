@@ -17,6 +17,8 @@ when support for encryption keys was added.
 
 Please complete [Initial Setup]({{ "/docs/initial_setup" | relative_url }}) before proceeding. This section assumes your TemperBridge is powered up and connected to your WiFi network.
 
+**NOTE**: If you followed "Method 1" of WiFi setup, you may have already performed the steps in this section.
+
 If using a version of Home Assistant before 2023.2, you will need to install the [ESPHome integration](https://www.home-assistant.io/integrations/esphome/).
 
 Home Assistant should discover your TemperBridge automatically. It will give a notification that looks like this:
