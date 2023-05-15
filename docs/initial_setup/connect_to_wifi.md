@@ -17,7 +17,7 @@ Power up the TemperBridge. On a device with Bluetooth, go to this URL: [https://
 
 Select your device in the popup and click "**Pair**". It will be called something like 'temperbridge-3f65e1'.
 
-When you are prompted to click the "Authorize" button, click the button on the TemperBridge labeled "**FACTORY**". (It's the button closest to the big red and green LEDs)
+When you are prompted to click the "**Authorize**" button, click the button on the TemperBridge labeled "**FACTORY**". (It's the button closest to the big red and green LEDs)
 
 Enter your WiFi network name and password, then click "**SAVE**". Click "**NEXT**". Follow the instructions on subsequent pages to setup the ESPHome integration in your Home Assistant instance.
 
@@ -25,11 +25,13 @@ Enter your WiFi network name and password, then click "**SAVE**". Click "**NEXT*
 
 Use this method if you have a PC or laptop with a USB port. 
 
-Plug the TemperBridge into your PC. Go to this URL: [https://web.esphome.io/](https://web.esphome.io/). Click the "CONNECT" button.
+Plug the TemperBridge into your PC. Go to this URL: [https://web.esphome.io/](https://web.esphome.io/). Click the "**CONNECT**" button.
 
-<img width="300px" src="{{ "/assets/images/improv-serial.PNG" | relative_url }}">
+<img width="500px" src="{{ "/assets/images/improv-serial.PNG" | relative_url }}">
 
 In the popup, select the "**CP2102N USB to UART Bridge Controller**" device and click "**Connect**".
+
+<img width="500px" src="{{ "/assets/images/improv-serial-esp-home.PNG" | relative_url }}">
 
 Click the three dots menu, then select "**Configure Wi-Fi**". Click "**CONNECT TO WI-FI**" on the popup. Select your WiFi network in the dropdown and enter the password. Click "**CONNECT**".
 
