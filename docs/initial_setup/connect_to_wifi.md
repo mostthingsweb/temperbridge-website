@@ -35,7 +35,7 @@ In the popup, select the "**CP2102N USB to UART Bridge Controller**" device and 
 
 Click the three dots menu, then select "**Configure Wi-Fi**". Click "**CONNECT TO WI-FI**" on the popup. Select your WiFi network in the dropdown and enter the password. Click "**CONNECT**".
 
-After provisioning is complete, proceed to [Home Assistant setup]({{ "/docs/initial_setup/home_assistant" | relative_url }}).
+After provisioning is complete, proceed to [Home Assistant setup]({{ "/docs/home_assistant" | relative_url }}).
 
 ## Method 3: Pair over WiFi using captive portal
 
@@ -48,11 +48,11 @@ Upon connecting, your browser should automatically open the captive portal web i
 <img width="500px" src="{{ "/assets/images/captive-portal.PNG" | relative_url }}">
 
 Click your WiFi network, enter the password, then click Save. After about 30 seconds, the **TemperBridge Wifi Config** network will disappear.
-Your TemeprBridge should now be connected to WiFi. Proceed to [Home Assistant setup]({{ "/docs/initial_setup/home_assistant" | relative_url }}).
+Your TemeprBridge should now be connected to WiFi. Proceed to [Home Assistant setup]({{ "/docs/home_assistant" | relative_url }}).
 
 ## Verifying connectivity
 
-This step is optional. Connectivity will be verified anyway when you [setup Home Assistant integration]({{ "/docs/initial_setup/home_assistant" | relative_url }}). 
+This step is optional. Connectivity will be verified anyway when you [setup Home Assistant integration]({{ "/docs/home_assistant" | relative_url }}). 
 
 The hostname of your TemperBridge will be something like **temperbridge-3f65e1**. The last six characters are the same as the last
 three octets of the MAC address. You can find both the MAC address and hostname on the info page that came with your device.
