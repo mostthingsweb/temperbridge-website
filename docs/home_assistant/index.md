@@ -43,5 +43,3 @@ please [contact us](https://www.temperbridge.com/contact) and we can send it to 
 Finally, assign the TemperBridge to an area of your choice, and hit "Finish":
 
 <img height="175px" src="{{ "/assets/images/area.PNG" | relative_url }}">
-
-## Home Assistant entities
