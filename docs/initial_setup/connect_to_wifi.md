@@ -11,17 +11,29 @@ There are three different ways you can pair your TemperBridge to your WiFi netwo
 
 If you have access to a device with Bluetooth then this method is by far the easiest.
 
-Power up the TemperBridge. On a device with Bluetooth, go to this URL: [https://www.improv-wifi.com/](https://www.improv-wifi.com/).
+Power up the TemperBridge. On a device with Bluetooth, go to this URL: [https://www.improv-wifi.com/](https://www.improv-wifi.com/). Click the "**Connect device to Wi-Fi**" button. 
 
-Click the "Connect device to Wi-Fi" button. Select your device in the popup and click "Pair". It will be called something like 'temperbridge-3f65e1'.
+<img width="500px" src="{{ "/assets/images/improv-bluetooth.png" | relative_url }}">
 
-When you are prompted to click the "Authorize" button, click the button on the TemperBridge labeled "FACTORY". (It's the button closest to the big red and green LEDs)
+Select your device in the popup and click "**Pair**". It will be called something like 'temperbridge-3f65e1'.
 
-Enter your WiFi network name and password, then click "SAVE". Click "NEXT". Follow the instructions on subsequent pages to setup the ESPHome integration in your Home Assistant assistant.
+When you are prompted to click the "Authorize" button, click the button on the TemperBridge labeled "**FACTORY**". (It's the button closest to the big red and green LEDs)
+
+Enter your WiFi network name and password, then click "**SAVE**". Click "**NEXT**". Follow the instructions on subsequent pages to setup the ESPHome integration in your Home Assistant instance.
 
 ## Method 2: Pair over USB
 
 Use this method if you have a PC or laptop with a USB port. 
+
+Plug the TemperBridge into your PC. Go to this URL: [https://web.esphome.io/](https://web.esphome.io/). Click the "CONNECT" button.
+
+<img width="500px" src="{{ "/assets/images/improv-serial.png" | relative_url }}">
+
+In the popup, select the "**CP2102N USB to UART Bridge Controller**" device and click "**Connect**".
+
+Click the three dots menu, then select "**Configure Wi-Fi**". Click "**CONNECT TO WI-FI**" on the popup. Select your WiFi network in the dropdown and enter the password. Click "**CONNECT**".
+
+After provisioning is complete, proceed to Home Assistant setup.
 
 ## Method 3: Pair over WiFi using captive portal
 
