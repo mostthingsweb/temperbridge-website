@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Troubleshooting
-nav_order: 2
+title: Reboot / factory reset
+nav_order: 3
 parent: Using the device
 ---
 

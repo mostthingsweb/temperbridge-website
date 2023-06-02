@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Device tasks
+title: Using the device
 has_children: true
 nav_order: 4
 ---
