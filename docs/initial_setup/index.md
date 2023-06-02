@@ -24,7 +24,7 @@ hold the **Stop** + **Flat** buttons for 10 seconds. The channel number will app
 {: .warning }
 After the channel number appears on the screen, don't press any buttons until it disappears (after about 10 seconds). 
 Otherwise, you may inadvertently change the channel number to which your remote is tuned. If that happens, you'll need to go 
-through one of the learning procedures detailed [in the manual](https://assets-www.tempurpedic.com/media/documents/Tempur_Ergo_Premier_Owners_Manual.pdf).
+through one of the learning procedures detailed [in the manual](https://assets-www.tempurpedic.com/media/documents/Tempur_Ergo_Premier_Owners_Manual.pdf){:target="_blank"}.
 
 If you have a split base that is _not_ operating in tandem mode, then each remote will have its own channel. 
 

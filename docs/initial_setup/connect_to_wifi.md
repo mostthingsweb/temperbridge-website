@@ -27,7 +27,7 @@ Proceed to [Home Assistant basic setup]({{ "/docs/home_assistant/basic_setup" | 
 
 Use this method if you have a PC or laptop with a USB port. 
 
-Plug the TemperBridge into your PC. Go to this URL: [https://web.esphome.io/](https://web.esphome.io/). Click the "**CONNECT**" button.
+Plug the TemperBridge into your PC. Go to this URL: [https://web.esphome.io/](https://web.esphome.io/){:target="_blank"}. Click the "**CONNECT**" button.
 
 <img width="500px" src="{{ "/assets/images/improv-serial.PNG" | relative_url }}">
 
@@ -42,10 +42,10 @@ After provisioning is complete, proceed to [Home Assistant setup]({{ "/docs/home
 ## Method 3: Pair over WiFi using captive portal
 
 Power up the TemperBridge. After a few moments, the red LED will blink. Using your PC or phone, connect to the
-**TemperBridge Wifi Config** WiFi network. This is a special WiFi network (called a [captive portal](https://esphome.io/components/captive_portal.html)) that the TemperBridge creates
+**TemperBridge Wifi Config** WiFi network. This is a special WiFi network (called a [captive portal](https://esphome.io/components/captive_portal.html){:target="_blank"}) that the TemperBridge creates
 when it is not otherwise connected to WiFi.
 
-Upon connecting, your browser should automatically open the captive portal web interface. (If not, go to [http://192.168.4.1/](http://192.168.4.1/)).
+Upon connecting, your browser should automatically open the captive portal web interface. (If not, go to [http://192.168.4.1/](http://192.168.4.1/){:target="_blank"}).
 
 <img width="500px" src="{{ "/assets/images/captive-portal.PNG" | relative_url }}">
 
@@ -59,7 +59,7 @@ This step is optional. Connectivity will be verified anyway when you [setup Home
 The hostname of your TemperBridge will be something like **temperbridge-3f65e1**. The last six characters are the same as the last
 three octets of the MAC address. You can find both the MAC address and hostname on the info page that came with your device.
 
-TemperBridge uses [mDNS](https://en.wikipedia.org/wiki/Multicast_DNS) to advertise itself on your network which is how Home Assistant finds it.
+TemperBridge uses [mDNS](https://en.wikipedia.org/wiki/Multicast_DNS){:target="_blank"} to advertise itself on your network which is how Home Assistant finds it.
 
 Try pinging your device's hostname with **.local** tacked onto the end. For example:
 
@@ -68,4 +68,4 @@ ping temperbridge-3f65e1.local
 ```
 
 If this fails, check to make sure your system has mDNS support enabled. On Windows, the easiest fix is to
-install [Bonjour Print Services](https://support.apple.com/kb/DL999?locale=en_US) and then reboot your machine. On Linux, try following [these instructions](https://developer.ridgerun.com/wiki/index.php/How_to_use_mDNS_to_access_a_device_without_knowing_the_IP_address).
+install [Bonjour Print Services](https://support.apple.com/kb/DL999?locale=en_US){:target="_blank"} and then reboot your machine. On Linux, try following [these instructions](https://developer.ridgerun.com/wiki/index.php/How_to_use_mDNS_to_access_a_device_without_knowing_the_IP_address){:target="_blank"}.
