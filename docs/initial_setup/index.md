@@ -3,6 +3,7 @@ layout: default
 title: Initial setup
 has_children: true
 nav_order: 2
+expanded: true
 ---
 
 ## Basic requirements
