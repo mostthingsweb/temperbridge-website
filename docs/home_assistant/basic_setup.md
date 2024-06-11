@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Basic setup
+title: Sample card
 nav_order: 2
 parent: Home Assistant
 ---
